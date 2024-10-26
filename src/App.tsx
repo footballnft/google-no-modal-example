@@ -9,7 +9,7 @@ import "./App.css";
 // import RPC from './ethersRPC' // for using ethers.js
 import RPC from './viemRPC' // for using viem
 
-const clientId = "BBVmbaedfuule7oUOmGaLO8YzQUzjSigtYJiIzlJZh9hxMsrJkmuHoycpI8qCZ6k7AntgyDqNrwIpSWkQwEsUSw"; // get from https://dashboard.web3auth.io
+const clientId = "BLbWp3RaeuV0WoNOpTuplbnF6Te-iQnGTI-3Y2hrnuUTF7ih4XrE59vdXLWeWiG3uzE06QTb20fRLGfKMHMAAk8"; // get from https://dashboard.web3auth.io
 
 function App() {
   const [web3auth, setWeb3auth] = useState<Web3AuthNoModal | null>(null);
